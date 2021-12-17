@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+}
+.logo img{
+    height: 50px;
+    width: 200px;
+}
+.login{
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 30px;
+    background-color: #94c11f;
+    border-radius: 23px;
+
+}
+.station{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+}
+.container{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+.checkBar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.map{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+}
+.areYou span{
+    font-size: 22px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.areYou span{
+    font-size: 22px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.location span{
+    padding-right: 20px;
+    /* margin-bottom: 10px; */
+    font-size: 22px;
+    font-weight: 700;
+}
+.areYou .react-switch-bg{
+    height: 31px;
+    /* width: 300px; */
+    /* transform: translateX(60px) !important;  */
+}
+
+.areYou .react-switch{
+    /* transform: translateX(95px) !important; */
+
+}
+.carOwner{
+    width: 100px;
+    color: white;
+    padding-left: 8px;
+    font-size: 20px;
+}
